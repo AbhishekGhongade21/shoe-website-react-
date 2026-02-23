@@ -1,168 +1,85 @@
-👟 KYNTRA – Premium Indian E-Commerce Shoe Store
+# Kyntra - Premium Shoe E-commerce Store
 
-A production-ready, scalable e-commerce platform built with React & Vite, optimized for the Indian market 🇮🇳
+A modern, Nike-inspired shoe e-commerce website built with React, Vite, and Context API.
 
+## 🚀 Features
 
+- **Premium Design**: Nike-inspired minimal UI with bold typography
+- **Product Catalog**: Browse shoes with filters, search, and sorting
+- **Shopping Cart**: Full cart management with LocalStorage persistence
+- **Responsive Design**: Mobile-first approach with desktop optimization
+- **Modern Tech Stack**: React 19, Vite, React Router, Context API
 
-📌 Overview
+## 🛠️ Tech Stack
 
-Kyntra is a fully functional e-commerce shoe store inspired by modern athletic brands and customized for the Indian market with INR pricing, GST calculation, and a professional discount engine.
+- **Frontend**: React 19.2.0
+- **Build Tool**: Vite 7.3.1
+- **Routing**: React Router DOM v7
+- **State Management**: Context API
+- **Styling**: Plain CSS (no external UI libraries)
+- **Storage**: LocalStorage for cart persistence
 
-This project demonstrates real-world frontend architecture, business logic implementation, and scalable React development patterns.
+## 📦 Project Structure
 
-🛒 Features
-🏠 Complete Shopping Flow
-
-Home page with hero section
-
-Product listing with filtering & sorting
-
-Product details page
-
-Shopping cart with real-time updates
-
-Multi-step checkout
-
-Order confirmation screen
-
-💰 Indian Market Optimization
-
-🇮🇳 INR pricing system
-
-18% GST auto calculation
-
-Indian number formatting (toLocaleString('en-IN'))
-
-Free shipping threshold logic
-
-🎟️ Advanced Discount System
-
-Percentage-based coupons
-
-Flat discount coupons
-
-Category-specific discounts
-
-Free shipping codes
-
-Expiry validation
-
-Minimum cart value checks
-
-One-time usage tracking
-
-Real-time total recalculation
-
-🔍 Smart Product Experience
-
-Real-time search
-
-Category filtering (Running, Basketball, Casual, Street, Training)
-
-Sorting by price, name, rating
-
-Pagination support
-
-Stock tracking system
-
-👨‍💼 Admin Panel
-
-Secure admin login
-
-Product CRUD operations
-
-Inventory management
-
-Business value calculation
-
-Dashboard overview
-
-🎨 UI / UX Highlights
-
-Modern athletic brand-inspired design
-
-Smooth animations & transitions
-
-Dark mode support
-
-Fully responsive (mobile-first)
-
-Professional cart experience
-
-🏗️ Tech Stack
-
-React 18
-
-Vite
-
-React Router
-
-Context API
-
-Custom Hooks
-
-CSS3 Animations
-
-LocalStorage (data persistence)
-
-📂 Project Structure
+```
 src/
-├── components/
-├── context/
-├── hooks/
-├── pages/
-├── data/
-└── assets/
+├── components/     # Reusable UI components
+├── pages/         # Page components
+├── context/       # Context API for state management
+├── data/          # Product data and constants
+├── styles/        # Global styles and utilities
+└── hooks/         # Custom React hooks
+```
 
-Scalable, modular architecture with separation of concerns.
+## 🏃‍♂️ Getting Started
 
-⚡ Performance & Engineering
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-Optimized component structure
+2. **Start development server**:
+   ```bash
+   npm run dev
+   ```
 
-Context-based state management
+3. **Open browser**:
+   Navigate to `http://localhost:5173`
 
-Clean reusable logic via custom hooks
+## 📱 Pages
 
-Efficient re-render handling
+- **Home**: Hero section with featured products
+- **Products**: Product grid with filters and search
+- **Product Details**: Individual product pages
+- **Cart**: Shopping cart with full CRUD operations
+- **404**: Custom not found page
 
-Production-ready architecture
+## 🎨 Design Features
 
-📈 Business-Oriented Logic
+- **Color Palette**: Black (#000), White (#fff), Soft Gray (#f5f5f5)
+- **Typography**: Large bold headings with clean sans-serif fonts
+- **Animations**: Smooth transitions and hover effects
+- **Layout**: Clean grid layouts with generous white space
 
-Revenue calculation ready
+## 🛍️ Functionality
 
-Coupon performance tracking capable
+- ✅ Add products to cart with size selection
+- ✅ Cart management (increase/decrease quantity, remove items)
+- ✅ LocalStorage persistence
+- ✅ Product filtering by category
+- ✅ Search functionality
+- ✅ Price sorting options
 
-Inventory-based order control
+## 📦 Build & Deploy
 
-Free shipping conversion strategy
+```bash
+# Build for production
+npm run build
 
-🎯 Why This Project Stands Out
+# Preview production build
+npm run preview
+```
 
-✔ Real-world business logic
-✔ Indian market readiness
-✔ Scalable architecture
-✔ Admin-level management system
-✔ Production-quality UI
+---
 
-This is not a demo project — it simulates a real commercial e-commerce system.
-
-🚀 Future Enhancements
-
-Backend integration (Node + MongoDB)
-
-JWT authentication
-
-Payment gateway integration
-
-Order history & user accounts
-
-Analytics dashboard
-
-Wishlist feature
-
-🧑‍💻 Author
-
-Abhishek Ghongade
-Frontend Developer | React Enthusiast
+Built with ❤️ using React and Vite
